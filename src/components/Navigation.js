@@ -10,6 +10,9 @@ const Navigation = () => {
             <NavLink exact to="/a-propos" activeClassName="nav-active">
                 À propos
             </NavLink>
+            <NavLink exact to="/t" activeClassName="nav-active">
+                404
+            </NavLink>
             
         </div>
     );
